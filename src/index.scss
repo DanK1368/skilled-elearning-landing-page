@@ -6,16 +6,54 @@
   box-sizing: border-box;
 }
 
+// Colors
+
+$primary-color: rgb(19, 24, 63);
+$secondary-color: rgb(247, 71, 128);
+$text-color: rgb(131, 134, 154);
+$gradient-color-1: linear-gradient(
+  to top,
+  rgb(240, 42, 166),
+  rgb(255, 111, 72)
+);
+$gradient-color-2: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+$text-hover-color: rgb(255, 167, 195);
+$button-header-hover-color: rgb(102, 108, 163);
+
 html {
   font-size: 62.5%;
 }
 
-.App {
-  min-height: 100vh;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 img {
   max-width: 100%;
 }
 
-$bg-color: aquamarine;
+.App {
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+p {
+  color: $text-color;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}

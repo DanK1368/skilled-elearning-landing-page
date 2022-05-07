@@ -1,0 +1,42 @@
+@use "../../index.scss" as *;
+
+.button {
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+  font-weight: 500;
+  padding: 1.2rem 2rem;
+  border-radius: 99999px;
+  cursor: pointer;
+}
+
+.button--header {
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: $button-header-hover-color;
+  }
+}
+
+.button--main {
+  background: $gradient-color-1;
+
+  &:hover {
+    background: linear-gradient(
+      to top,
+      rgba(240, 42, 166, 0.5),
+      rgba(255, 111, 72, 0.5)
+    );
+  }
+}
+
+.button--footer {
+  background: $gradient-color-2;
+
+  &:hover {
+    background: linear-gradient(
+      rgba(72, 81, 255, 0.5),
+      rgba(240, 42, 166, 0.5)
+    );
+  }
+}

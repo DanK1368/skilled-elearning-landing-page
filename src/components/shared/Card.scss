@@ -1,0 +1,34 @@
+@use "../../index.scss" as *;
+
+.card {
+  background-color: white;
+  padding: 5rem 2rem 2rem 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+
+  &__img {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    left: 30px;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
+
+  &__btn {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+}
