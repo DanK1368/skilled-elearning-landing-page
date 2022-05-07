@@ -47,7 +47,7 @@ function Features() {
           <h2>Check out our most popular courses!</h2>
         </div>
         {features.map(feature => (
-          <Card key={features.id} {...feature} />
+          <Card key={feature.id} {...feature} />
         ))}
       </div>
     </section>

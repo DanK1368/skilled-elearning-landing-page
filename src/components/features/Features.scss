@@ -2,20 +2,25 @@
 
 .features {
   width: 100%;
+  margin: 0 auto;
   background: linear-gradient(rgb(255, 255, 255), rgba(153, 130, 255, 0.102));
-  padding-bottom: 8rem;
+  padding-block: 8rem;
 
   &__container {
-    width: 90%;
+    width: min(180ch, 100vw - 3rem);
     margin: 0 auto;
     display: grid;
     gap: 5rem;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   &__header {
     background: $gradient-color-1;
     padding: 2rem;
     border-radius: 10px;
+
+    @media (min-width: 650px) {
+      padding-top: 5rem;
+    }
   }
 }

@@ -42,7 +42,7 @@ h2 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: clamp(4rem, 3vw + 1rem, 5.6rem);
   font-weight: 800;
 }
 

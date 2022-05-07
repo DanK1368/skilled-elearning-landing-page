@@ -2,11 +2,24 @@
 
 .hero {
   min-height: 90vh;
-  width: 100%;
+  width: min(180ch, 100vw);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   overflow: hidden;
+  flex-wrap: wrap;
+
+  @media (min-width: 650px) {
+    flex-direction: row;
+    margin: auto;
+    min-height: 70vh;
+    padding-block: 8rem;
+    padding-left: 2.3rem;
+  }
+
+  @media (min-width: 1400px) {
+    overflow: initial;
+  }
 
   &__text-container {
     width: 90%;
@@ -15,16 +28,48 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
+
+    h1 {
+      max-width: 15ch;
+    }
+
+    p {
+      max-width: 35ch;
+    }
+
+    @media (min-width: 650px) {
+      flex: 1;
+      margin: 0;
+    }
   }
 
   &__img-container {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 650px) {
+      flex: 1;
+      position: relative;
+    }
   }
 
   &__img {
     max-width: 120%;
     object-fit: cover;
+
+    @media (min-width: 650px) {
+      max-width: 700px;
+      position: absolute;
+      top: -230px;
+      right: -300px;
+      z-index: 5;
+    }
+
+    @media (min-width: 1300px) {
+      max-width: 900px;
+      top: -350px;
+      right: -450px;
+    }
   }
 }
