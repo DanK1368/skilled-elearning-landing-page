@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/skilled-elearning-landing-page/static/css/main.53b4ca11.css",
-    "main.js": "/skilled-elearning-landing-page/static/js/main.04d74109.js",
+    "main.css": "/skilled-elearning-landing-page/static/css/main.aea266c7.css",
+    "main.js": "/skilled-elearning-landing-page/static/js/main.94227184.js",
+    "static/media/image-hero-mobile@2x.png": "/skilled-elearning-landing-page/static/media/image-hero-mobile@2x.173eaedeced969eb33a2.png",
+    "static/media/logo-dark.svg": "/skilled-elearning-landing-page/static/media/logo-dark.bd6dbe3fb81a86888ece82aa3764d1a4.svg",
+    "static/media/logo-light.svg": "/skilled-elearning-landing-page/static/media/logo-light.9fb3a720f1b85b9ed9991de94726c34b.svg",
+    "static/media/icon-animation.svg": "/skilled-elearning-landing-page/static/media/icon-animation.222979d47fd2dbbc9a215695c907fd93.svg",
     "index.html": "/skilled-elearning-landing-page/index.html",
-    "main.53b4ca11.css.map": "/skilled-elearning-landing-page/static/css/main.53b4ca11.css.map",
-    "main.04d74109.js.map": "/skilled-elearning-landing-page/static/js/main.04d74109.js.map"
+    "static/media/icon-crypto.svg": "/skilled-elearning-landing-page/static/media/icon-crypto.8d407fcff65885d92537a9d941d476d4.svg",
+    "static/media/icon-business.svg": "/skilled-elearning-landing-page/static/media/icon-business.e1585951503a38781a9919e3ade6a40e.svg",
+    "static/media/icon-photography.svg": "/skilled-elearning-landing-page/static/media/icon-photography.eeaad81e7533c8103b7235301dce7c03.svg",
+    "static/media/icon-design.svg": "/skilled-elearning-landing-page/static/media/icon-design.06f787d808ae5438fdfee22122ff6424.svg",
+    "main.aea266c7.css.map": "/skilled-elearning-landing-page/static/css/main.aea266c7.css.map",
+    "main.94227184.js.map": "/skilled-elearning-landing-page/static/js/main.94227184.js.map"
   },
   "entrypoints": [
-    "static/css/main.53b4ca11.css",
-    "static/js/main.04d74109.js"
+    "static/css/main.aea266c7.css",
+    "static/js/main.94227184.js"
   ]
 }
