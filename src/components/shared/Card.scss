@@ -33,7 +33,13 @@
   &__btn {
     border: none;
     background: transparent;
+    font-weight: 500;
     font-size: 2rem;
     color: $secondary-color;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(247, 71, 128, 0.6);
+    }
   }
 }
