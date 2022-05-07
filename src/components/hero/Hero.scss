@@ -6,19 +6,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  overflow: hidden;
+  overflow-x: hidden;
   flex-wrap: wrap;
 
   @media (min-width: 650px) {
     flex-direction: row;
     margin: auto;
+    width: 100%;
     min-height: 70vh;
     padding-block: 8rem;
     padding-left: 2.3rem;
   }
 
-  @media (min-width: 1400px) {
-    overflow: initial;
+  @media (min-width: 1350px) {
+    padding-left: 10rem;
+    overflow: visible;
   }
 
   &__text-container {
@@ -56,20 +58,18 @@
 
   &__img {
     max-width: 120%;
-    object-fit: cover;
 
     @media (min-width: 650px) {
       max-width: 700px;
       position: absolute;
       top: -230px;
       right: -300px;
-      z-index: 5;
     }
 
     @media (min-width: 1300px) {
       max-width: 900px;
       top: -350px;
-      right: -450px;
+      right: -400px;
     }
   }
 }

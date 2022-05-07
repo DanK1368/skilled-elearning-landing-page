@@ -15,15 +15,13 @@ function Hero() {
         </p>
         <Button btnType="button--main" />
       </div>
-      <div className="hero__img-container">
-        <img
-          className="hero__img"
-          src={Hero_Mobile_Img}
-          srcSet={`${Hero_Mobile_Img} 650w, ${Hero_Tablet_Img} 1390w, ${Hero_Desktop_Img} 2092w `}
-          sizes="(max-width: 650px) 650px, 1390w, 2092w"
-          alt=""
+      <picture className="hero__img-container">
+        <source
+          srcSet={(`${Hero_Tablet_Img} 1390w`, `${Hero_Desktop_Img} 2090w`)}
+          media="(min-width: 650px), 100vw, (min-width: 1024px), 100vw"
         />
-      </div>
+        <img className="hero__img" src={Hero_Mobile_Img} alt="" />
+      </picture>
     </section>
   );
 }
