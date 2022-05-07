@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skilled-elearning-landing-page/static/css/main.7a9d77fd.css",
-    "main.js": "/skilled-elearning-landing-page/static/js/main.ebfdf832.js",
+    "main.js": "/skilled-elearning-landing-page/static/js/main.91dfdb5c.js",
     "static/media/image-hero-desktop@2x.png": "/skilled-elearning-landing-page/static/media/image-hero-desktop@2x.110673742c14b1dc38e7.png",
     "static/media/image-hero-tablet@2x.png": "/skilled-elearning-landing-page/static/media/image-hero-tablet@2x.81ff23ea8ef9eda78a4a.png",
     "static/media/image-hero-mobile@2x.png": "/skilled-elearning-landing-page/static/media/image-hero-mobile@2x.173eaedeced969eb33a2.png",
@@ -14,10 +14,10 @@
     "static/media/icon-photography.svg": "/skilled-elearning-landing-page/static/media/icon-photography.eeaad81e7533c8103b7235301dce7c03.svg",
     "static/media/icon-design.svg": "/skilled-elearning-landing-page/static/media/icon-design.06f787d808ae5438fdfee22122ff6424.svg",
     "main.7a9d77fd.css.map": "/skilled-elearning-landing-page/static/css/main.7a9d77fd.css.map",
-    "main.ebfdf832.js.map": "/skilled-elearning-landing-page/static/js/main.ebfdf832.js.map"
+    "main.91dfdb5c.js.map": "/skilled-elearning-landing-page/static/js/main.91dfdb5c.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9d77fd.css",
-    "static/js/main.ebfdf832.js"
+    "static/js/main.91dfdb5c.js"
   ]
 }
