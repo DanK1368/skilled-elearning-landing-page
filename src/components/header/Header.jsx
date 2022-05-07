@@ -1,9 +1,10 @@
 import "./Header.scss";
+import LogoDark from "../../assets/logo-dark.svg";
 
 function Header() {
   return (
     <header className="header">
-      <img src="./assets/logo-dark.svg" alt="" />
+      <img src={LogoDark} alt="" />
     </header>
   );
 }
