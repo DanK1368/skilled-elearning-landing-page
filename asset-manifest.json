@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skilled-elearning-landing-page/static/css/main.53b4ca11.css",
+    "main.js": "/skilled-elearning-landing-page/static/js/main.04d74109.js",
+    "index.html": "/skilled-elearning-landing-page/index.html",
+    "main.53b4ca11.css.map": "/skilled-elearning-landing-page/static/css/main.53b4ca11.css.map",
+    "main.04d74109.js.map": "/skilled-elearning-landing-page/static/js/main.04d74109.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53b4ca11.css",
+    "static/js/main.04d74109.js"
+  ]
+}
